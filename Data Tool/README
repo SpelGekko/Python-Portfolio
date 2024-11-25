@@ -1,3 +1,9 @@
 ## Data Tool
 
 Simple Data Analysis Tool using Python. The tool is designed to analyze datasets and provide insights.
+The tool uses an open source dataset from Kaggle (https://www.kaggle.com/datasets/octopusteam/full-imdb-dataset?resource=download) which contains information about movies. The tool can be used to analyze the dataset and provide insights about the data.
+
+It uses the following libraries:
+- Pandas ( pip install pandas )
+- Seaborne ( pip install seaborn )
+- Matplotlib ( pip install matplotlib )
