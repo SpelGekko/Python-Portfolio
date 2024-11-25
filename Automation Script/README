@@ -1,3 +1,15 @@
 ## Automation Script
 
 Basic automation script to automate a repetitive task.
+
+### Summary
+
+This script performs two main tasks:
+
+1. **PDF Merger**: Merges multiple PDF files into a single PDF file.
+2. **Text File Analyzer**: Analyzes a text file to provide the following information:
+   - Character count
+   - Word count
+   - Word frequency (top 10 most common words)
+
+To use the script, place the PDF files and text file in the `files` directory and run the script. The merged PDF will be saved in the `files` directory, and the text file analysis results will be printed to the console.
