@@ -1,0 +1,15 @@
+## Test Projects / Portfolio
+
+Collection of projects to form a small portfolio (Python based).
+
+### Projects
+1. Web Scraper - A project that scrapes data from websites and processes it.
+2. Data Analysis Tool - A project that analyzes datasets and provides insights.
+3. Web Application - A simple web application using Flask or Django.
+4. Automation Script - A script that automates a repetitive task.
+5. Machine Learning Model - A project that implements a machine learning model using libraries like scikit-learn or TensorFlow.
+6. API Client - A project that interacts with a public API and processes the data.
+7. Game - A simple game using Pygame.
+8. Chatbot - A chatbot using natural language processing.
+9. Database Manager - A project that manages and queries a database.
+10. File Organizer - A script that organizes files in a directory based on their type.
