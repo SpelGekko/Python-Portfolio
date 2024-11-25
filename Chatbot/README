@@ -1,3 +1,6 @@
 ## Chatbot
 
-Basic chatbot using natural language processing.
+Very simple chatbot using premade answers to "General" questions.
+
+## Needed Libraries
+- NLTK ( pip install nltk )
