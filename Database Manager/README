@@ -1,3 +1,6 @@
 ## Database Manager
 
 Simple Database Manager using SQLite and Python. The manager allows users to create, read, update, and delete records in a database.
+
+## Libraries
+- sqlite3 ( pip install sqlite3 )
