@@ -1,3 +1,6 @@
 ## Game
 
-Basic pygame game. 
+Basic Hangman built in Pygame. 
+
+## Libraries
+- Pygame ( pip install pygame )
