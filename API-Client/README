@@ -1,3 +1,5 @@
 ## API Client
 
 Api Client build in Python using requests library to interact with public APIs and process the data.
+
+We use the NASA Mars Weather Data API to get weather data from Mars. We plot it on some graphs for visualization.
