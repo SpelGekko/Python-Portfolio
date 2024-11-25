@@ -10,9 +10,9 @@ def merge_pdfs(pdf_list, output_path):
 
     for pdf in pdf_list:
         pdf_reader = PyPDF2.PdfReader(pdf)
-        for page_num in range(pdf_reader.numPages):
-            page = pdf_reader.getPage(page_num)
-            pdf_writer.addPage(page)
+        for page_num in range(len(pdf_reader.pages)):
+            page = pdf_reader.pages[page_num]
+            pdf_writer.add_page(page)
 
     with open(output_path, 'wb') as output_pdf:
         pdf_writer.write(output_pdf)
@@ -45,12 +45,12 @@ def analyze_text_file(file_path):
 
 def main():
     # Example usage for PDF merging
-    pdf_list = ['files/file1.pdf', 'files/file2.pdf', 'files/file3.pdf']  # Replace with your PDF files
-    output_pdf = 'merged.pdf'
+    pdf_list = ['Automation Script/files/file1.pdf', 'Automation Script/files/file2.pdf', 'Automation Script/files/file3.pdf']  # Replace with your PDF files
+    output_pdf = 'Automation Script/merged.pdf'
     merge_pdfs(pdf_list, output_pdf)
 
     # Example usage for text file analysis
-    text_file = 'files/example.txt'  # Replace with your text file
+    text_file = 'Automation Script/files/example.txt'  # Replace with your text file
     analyze_text_file(text_file)
 
 if __name__ == "__main__":
