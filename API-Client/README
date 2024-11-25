@@ -3,3 +3,7 @@
 Api Client build in Python using requests library to interact with public APIs and process the data.
 
 We use the NASA Mars Weather Data API to get weather data from Mars. We plot it on some graphs for visualization.
+If you do not have a NASA API key, you REPLACE the API_KEY in the code with your own "DEMO_KEY".
+This key allows you to make 30 requests per hour and 50 requests per day.
+
+You can also sign up for a key at https://api.nasa.gov/
