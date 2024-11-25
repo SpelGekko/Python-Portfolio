@@ -50,7 +50,8 @@ def main():
     merge_pdfs(pdf_list, output_pdf)
 
     # Example usage for text file analysis
-    text_file = 'Automation Script/files/example.txt'  # Replace with your text file
+    text_file = 'Automation Script/files/example.txt'  # Replace with your text file (if you don't have one, you can use the example.txt file in the files folder)
+    # text_file = 'Automation Script/files/RomeoAndJuliet.txt' # Uncomment this line to analyze Romeo and Juliet
     analyze_text_file(text_file)
 
 if __name__ == "__main__":
