@@ -1,3 +1,5 @@
+## Made by Gekko
+
 import sqlite3
 
 # Connect to the SQLite database (or create it if it doesn't exist)

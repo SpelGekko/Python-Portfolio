@@ -1,3 +1,5 @@
 ## File Organizer
 
 Organizer able to organize files in a folder based on their type. The script categorizes files into folders such as documents, images, videos, music, and others. It can be customized to include additional file types or categories.
+
+It creates folders for every different file type and moves the files into the respective folders. The script also creates a log file that records the files moved and the folders created.
