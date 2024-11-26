@@ -1,3 +1,6 @@
 ## Website
 
 Simple Website build within Flask framework. It houses the programs in the folder. The website is styled using HTML and CSS. 
+
+## Libraries
+- Flask ( pip install flask )
